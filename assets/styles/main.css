@@ -1,8 +1,9 @@
 header{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     background: url('/assets/svgs/bg-image.svg') no-repeat center fixed ;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 .navigation{
@@ -159,6 +160,7 @@ header{
     align-items: center;
     background-color: #ffffff;
     margin: 0px 10px;
+    margin-bottom: 50px;
     cursor: pointer;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -173,6 +175,61 @@ header{
     align-self: center;
 }
 
+.about-me{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.about-pic{
+    position: relative;
+    width: 525.98px;
+    height: 380.25px;
+    border: 2px solid #ffffff;
+    border-radius: 24px 0 24px 0px ;
+    -webkit-border-radius: 24px 0 24px 0px ;
+    -moz-border-radius: 24px 0 24px 0px ;
+    -ms-border-radius: 24px 0 24px 0px ;
+    -o-border-radius: 24px 0 24px 0px ;
+}
+
+.about-img{
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+}
+
+.about-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-content{
+    width: 50%;
+    padding: 24px;
+}
+
+.about-title span{
+    font-size: 2.4rem;
+    color: var(--PrimaryText);
+    font-weight: 500;
+}
+
+.about-title h3{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.about-description p{
+    font-size: 1.8rem;
+    color: #B0ADAD;
+    font-weight: 3300;
+}
 
 @keyframes fadeInDown{
     0%{
