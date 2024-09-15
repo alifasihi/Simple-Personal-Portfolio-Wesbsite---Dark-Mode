@@ -1,6 +1,6 @@
 header{
     width: 100%;
-    height: auto;
+    height: 100dvh;
     background: url('/assets/svgs/bg-image.svg') no-repeat center fixed ;
     background-size: cover;
     margin-bottom: 50px;
@@ -230,6 +230,89 @@ header{
     color: #B0ADAD;
     font-weight: 3300;
 }
+
+.specializing{
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.specializing-title{
+    text-align: center;
+}
+
+.specializing-title span{
+    font-size: 2.4rem;
+    color: var(--PrimaryText);
+    font-weight: 500;
+}
+
+.specializing-title h3{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.specializing-contents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.specializing-front,
+.specializing-ui{
+    width: 480px;
+    height: 206px;
+    background-color: #292C36;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.specializing-content-title{
+    display: flex;
+    align-items: center;
+}
+
+
+.specializing-content-icon{
+    width: 66px;
+    height: 66px;
+    background-color: #38405A;
+    margin: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.specializing-content-title span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.specializing-content-des p{
+    font-size: 1.8rem;
+    color: #B0ADAD;
+    font-weight: 3300;
+    margin-top: 10px;
+}
+
 
 @keyframes fadeInDown{
     0%{

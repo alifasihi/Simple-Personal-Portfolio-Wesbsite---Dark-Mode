@@ -3,7 +3,7 @@
         width: auto;
     }
     .head-sec{
-    margin-top: -50px;
+    margin-top: 50px;
 
     }
 }
@@ -58,6 +58,11 @@
         .about-description p{
             font-size: 1.5rem;
 
+        }
+
+        .specializing-contents{
+            display: flex;
+           flex-direction: column;
         }
 }
 
@@ -151,5 +156,20 @@
     .hamburger-menu-items a img{
         display: none;
     }
+
+    .specializing-front,
+    .specializing-ui{
+    width: auto;
+    height: auto;
+    background-color: #292C36;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
     
 }
