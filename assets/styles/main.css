@@ -1,7 +1,7 @@
 header{
     width: 100%;
     height: 100dvh;
-    background: url('/assets/svgs/bg-image.svg') no-repeat center fixed ;
+    background: url('../svgs/bg-image.svg') no-repeat center fixed ;
     background-size: cover;
     margin-bottom: 50px;
 }
