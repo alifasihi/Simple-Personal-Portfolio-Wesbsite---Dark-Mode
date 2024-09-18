@@ -12,17 +12,24 @@ crossIcon.addEventListener("click", function () {
   hamburgerMenu.classList.remove("show-hamburger-menu");
 });
 
-
 // When the user scrolls down 100px from the top of the document, show the button
-window.onscroll = function() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        scrollTopBtn.style.display = "block";
-    } else {
-        scrollTopBtn.style.display = "none";
-    }
+window.onscroll = function () {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    scrollTopBtn.style.display = "block";
+  } else {
+    scrollTopBtn.style.display = "none";
+  }
 };
 
 // When the user clicks on the button, scroll to the top of the document smoothly
-scrollTopBtn.onclick = function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+scrollTopBtn.onclick = function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 };
+
+window.addEventListener("load", function () {
+  // وقتی صفحه به طور کامل لود شد، کلاس 'loaded' به تگ body اضافه می‌شود
+  document.body.classList.add("loaded");
+});
