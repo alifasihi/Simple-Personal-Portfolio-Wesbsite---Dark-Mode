@@ -506,6 +506,19 @@ header{
     bottom: 20px;
     animation: animate 3s linear infinite;
   }
+
+  #scrollTopBtn {
+    padding: 10px 20px;
+    background-color: #6E2011;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+}
   
   @keyframes animateWaves {
     0% {
